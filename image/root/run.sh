@@ -8,5 +8,5 @@ apk update &&
     mkdir /home/user/volumes/gitlab/config &&
     mkdir /home/user/volumes/gitlab/logs &&
     mkdir /home/user/volumes/gitlab/data &&
-    chown -R owner:owner /home/user/volumes &&
+    chown -R user:user /home/user/volumes &&
     rm -rf /var/cache/apk/*
